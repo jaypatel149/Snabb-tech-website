@@ -1,0 +1,43 @@
+.custom{
+    margin: 200px 0 auto;
+}
+
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.project{
+    height: 300px;
+    background-color: #003a68;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 100px 0px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 200px;
+    border: 1px solid #23C653;
+    background-color: #23C653;
+    color: black;
+}
+
+.btn:hover {
+    border: 1px solid grey;
+    background-color: #003A68;
+    color: white;
+}
+

@@ -1,0 +1,117 @@
+.header {
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.header.scrolled {
+    background-color: #003a68;
+}
+
+
+.navbar-brand img {
+    height: auto;
+    width: 250px;
+    object-fit: cover;
+}
+
+.banner {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 920px;
+    color: #FFFF;
+    background-image: url('../../assets/images/banner.jpg');
+}
+
+.bg-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #003A68;
+    opacity: 0.9;
+    z-index: 9;
+    transition: all 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.application{
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+p{
+    font-size: 18px;
+    color: #142E2C;
+    line-height: 30px;
+}
+
+.btn {
+    width: 200px;
+    border: 1px solid #23C653;
+    background-color: #23C653;
+    color: black;
+}
+
+.btn:hover {
+    border: 1px solid grey;
+    background-color: #003A68;
+    color: white;
+}
+
+
+.custom-card {
+    border-radius: 0;
+    height: 320px;
+    background-color: #fff;
+}
+
+.icons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    width: 60px;
+    background-color: #23C653;
+    height: 60px;
+
+}
+.container{
+    margin: 100px auto;
+}
+
+
+@media screen and (max-width: 575px) {
+    .navbar-brand img {
+        height: auto;
+        width: 150px;
+        object-fit: cover;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 150px;
+        border: 1px solid #23C653;
+        background-color: #23C653;
+        color: black;
+    }
+
+    .btn:hover {
+        border: 1px solid grey;
+        background-color: #003A68;
+        color: white;
+    }
+  
+}
